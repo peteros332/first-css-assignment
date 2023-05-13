@@ -1,0 +1,22 @@
+.first-section > h1{
+    color: #9d0d0d;
+    text-align: center;
+}
+.first-section h1 + p {
+    font-style: italic;
+    text-align: center;
+}  
+.second-section {
+    display: none;
+}
+.first-section:hover .second-section {
+   display: block;
+   text-align: center; 
+}
+.second-section .first-line{
+    font-size: 1.2em;
+}
+* {
+    background-color: rgb(240, 209, 209);
+  }
+  
